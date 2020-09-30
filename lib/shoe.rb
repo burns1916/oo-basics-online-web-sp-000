@@ -8,5 +8,10 @@ def initialize(brand)
   @brand = brand
 end
 
+def cobble(brand)
+  puts "#{brand} has been repaired"
+  @condition = new
+  
+end
 
 end
